@@ -1,0 +1,330 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+body {
+    background: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.hero {
+    background: #0a2540;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+
+.section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section h2 {
+    margin-bottom: 25px;
+    color: #0a2540;
+    font-size: 28px;
+}
+
+
+.dark {
+    background: #0a2540;
+    color: white;
+}
+
+.dark h2 {
+    color: white;
+}
+
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.dark .card {
+    background: #122f4f;
+    color: white;
+}
+
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills span {
+    background: #ffffff;
+    color: #0a2540;
+    padding: 10px 16px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dark .skills span {
+    background: white;
+}
+
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+a {
+    color: #0a2540;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.section p {
+    margin: 8px 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #0a2540;
+    color: white;
+}
+
+footer h2 {
+    letter-spacing: 2px;
+}
+
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .section {
+        padding: 40px 15px;
+    }
+
+    .section h2 {
+        font-size: 24px;
+    }
+
+    .skills {
+        justify-content: center;
+    }
+}
+.name {
+    font-style: italic;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+body {
+    background: #fdfcf7; /* ivory */
+    color: #3a4a42; /* soft dark sage */
+    line-height: 1.6;
+}
+
+
+.hero {
+    background: linear-gradient(135deg, #9caf88, #6b8f71); /* sage gradient */
+    color: #fdfcf7;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+
+.section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section h2 {
+    margin-bottom: 25px;
+    color: #6b8f71;
+    font-size: 28px;
+}
+
+
+.dark {
+    background: #6b8f71; /* sage */
+    color: #fdfcf7;
+}
+
+.dark h2 {
+    color: #fdfcf7;
+}
+
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+    border-left: 5px solid #9caf88;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.dark .card {
+    background: #7d9d87;
+    color: #fdfcf7;
+}
+
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills span {
+    background: #e6efe9; /* light sage */
+    color: #3a4a42;
+    padding: 10px 16px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dark .skills span {
+    background: #fdfcf7;
+    color: #6b8f71;
+}
+
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+a {
+    color: #6b8f71;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.section p {
+    margin: 8px 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #6b8f71;
+    color: #fdfcf7;
+}
+
+footer h2 {
+    letter-spacing: 2px;
+}
+
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .section {
+        padding: 40px 15px;
+    }
+
+    .section h2 {
+        font-size: 24px;
+    }
+
+    .skills {
+        justify-content: center;
+    }
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #6b8f71; /* sage green */
+    color: #fdfcf7;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #4f6f57;
+    transform: scale(1.05);
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    background: #6b8f71; /* sage green */
+    padding: 15px 0;
+    z-index: 1000;
+}
+
